@@ -144,17 +144,42 @@ int main()
 
     // }
     // cout<<ans;
+    // --------------------------------
 
+//     *
+//    ***
+//   *****
+//    ***
+//     *
 
-    int n;
-cin >> n;
+// int n;
+// cin>>n;
 
-// bitwise logic
-if (n & 1) {
-    cout << "odd";
-} else {
-    cout << "even";
-}
+// for (int i = 1; i <= n; i++)
+// {
+//     for (int j = 1; j <= n-i; j++)
+//     {
+//         cout<<" ";
+//     }
+//     for (int z = 1; z <= 2*i-1; z++)
+//     {
+//         cout<<"*";
+//     }  
+//     cout<<endl;
+// }
+
+// for (int i = n-1; i >= 1; i--)
+// {
+//     for (int j = 1; j <= n-i; j++)
+//     {
+//         cout<<" ";
+//     }
+//     for (int z = 1; z <= 2*i-1; z++)
+//     {
+//         cout<<"*";
+//     }  
+//     cout<<endl;
+// }
 
 
 
